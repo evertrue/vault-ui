@@ -1,0 +1,32 @@
+{
+  "name": "vault-ui",
+  "version": "0.1.0",
+  "description": "A simple UI for Hashicorp’s Vault. Based on Facebook’s React tutorial.",
+  "main": "server.coffee",
+  "dependencies": {
+    "coffee-script": "^1.10.0",
+    "express": "^4.4.5",
+    "express-http-proxy": "^0.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "coffee server.coffee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/evertrue/vault-ui.git"
+  },
+  "keywords": [
+    "react",
+    "vault"
+  ],
+  "author": "jeffbyrnes",
+  "bugs": {
+    "url": "https://github.com/evertrue/vault-ui/issues"
+  },
+  "homepage": "https://github.com/evertrue/vault-ui",
+  "engines": {
+    "node": "5.x"
+  }
+}
